@@ -1,7 +1,21 @@
 @import "_config";
 @import "_header";
+@import "_hero";
 
 * {
   margin: 0;
   padding: 0;
+}
+
+.Section--Title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+  h1 {
+    color: $black_color;
+    font-size: 48px;
+    font-family: $primary_font;
+    font-weight: 700;
+  }
 }
