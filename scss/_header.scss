@@ -4,8 +4,10 @@
 }
 header {
   background: $green_color;
-  width: 100%;
   height: 100%;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1950px;
 
   display: flex;
   flex-direction: row;
@@ -31,6 +33,7 @@ header {
       font-size: 18px;
       font-family: $primary_font;
       font-weight: 700;
+      border: none;
     }
   }
 

@@ -1,5 +1,8 @@
 .energy {
+  margin: 0 auto;
   width: 100%;
+  max-width: 1855px;
+  padding: 0 1.5rem;
   min-height: 1800px;
   background: $black_color;
   margin-top: 120px;
@@ -25,17 +28,20 @@
     &__upper {
       display: flex;
       justify-content: space-between;
-      margin-left: 252px;
-      margin-right: 108px;
+      margin: 0 auto;
+      width: 100%;
+      max-width: 1400px;
+      padding: 0 1.5rem;
 
       &__texts {
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 12px;
         color: $primary_text_color;
         font-family: $primary_font;
         margin-right: 168px;
         min-width: 300px;
+        line-height: 21.13px;
       }
       &__images {
         img {
@@ -46,17 +52,20 @@
     &__lower {
       display: flex;
       justify-content: space-between;
-      margin-left: 108px;
-      margin-right: 252px;
+      margin: 0 auto;
+      width: 100%;
+      max-width: 1400px;
+      padding: 0 1.5rem;
       &__texts {
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 12px;
         color: $primary_text_color;
         font-family: $primary_font;
         margin-left: 168px;
         margin-top: 150px;
         min-width: 300px;
+        line-height: 21.13px;
       }
       &__images {
         display: flex;
@@ -87,6 +96,7 @@
       font-family: $primary_font;
       font-size: 18px;
       font-weight: 700;
+      border: none;
     }
   }
 }
