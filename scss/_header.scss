@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 header {
   background: $green_color;
   width: 100%;
@@ -10,6 +14,7 @@ header {
 
   nav {
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
     margin-right: 119px;
 
@@ -33,5 +38,9 @@ header {
     padding-left: 108px;
     padding-top: 24px;
     padding-bottom: 25px;
+  }
+
+  .menu--icon {
+    display: none;
   }
 }

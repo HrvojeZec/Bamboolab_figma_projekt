@@ -1,28 +1,26 @@
-.Hero--section {
+.hero {
   img {
-    width: 100%;
-    height: auto;
+    max-width: 100%;
   }
-  .Hero--section__container {
+  .hero__container {
     position: absolute;
-    width: 100%;
-    max-width: 627px;
+    max-width: 70vh;
     height: 228px;
     top: 30%;
     left: 10%;
     display: flex;
   }
 
-  .Hero--section__container__green {
+  .hero__container__green {
     background: $green_color;
     width: 32px;
     height: 100%;
   }
 
-  .Hero--section__container__black {
+  .hero__container__black {
     background: $black_color;
-    width: 595px;
-    height: 100%;
+    max-width: 90%;
+
     display: flex;
     gap: 24px;
     flex-direction: column;
@@ -44,5 +42,18 @@
       font-family: $primary_font;
       font-weight: 400;
     }
+  }
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+  h1 {
+    color: $black_color;
+    font-size: 48px;
+    font-family: $primary_font;
+    font-weight: 700;
   }
 }

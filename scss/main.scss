@@ -5,22 +5,4 @@
 @import "_energy";
 @import "_input";
 @import "_footer";
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.Section--Title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 120px;
-  h1 {
-    color: $black_color;
-    font-size: 48px;
-    font-family: $primary_font;
-    font-weight: 700;
-  }
-}
-
 @import "_median";
