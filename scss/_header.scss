@@ -47,3 +47,32 @@ header {
     display: none;
   }
 }
+@media screen and (max-width: 960px) {
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 845px) {
+  header {
+    width: 100%;
+    nav {
+      display: none;
+      background-color: $black_color;
+      color: $primary_text_color;
+    }
+    .menu--icon {
+      display: block;
+    }
+  }
+}
+@media screen and (max-width: 425px) {
+  header {
+    img {
+      padding-left: 10px;
+      padding-top: 24px;
+      padding-bottom: 25px;
+    }
+  }
+}

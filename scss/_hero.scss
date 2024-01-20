@@ -60,10 +60,80 @@
   justify-content: center;
   align-items: center;
   margin-top: 120px;
+  margin-bottom: 120px;
   h1 {
     color: $black_color;
     font-size: 48px;
     font-family: $primary_font;
     font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .Hero--section {
+    .Hero--section__container {
+      top: 15%;
+      left: 5%;
+      height: 160px;
+    }
+
+    .Hero--section__container__black {
+      h1 {
+        font-size: 36px;
+      }
+      p {
+        font-size: 13px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 845px) {
+  .hero {
+    .hero__wrapper {
+      .hero__container {
+        top: 12%;
+        left: 0%;
+        height: 160px;
+      }
+
+      .hero__container__black {
+        h1 {
+          font-size: 30px;
+        }
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .hero {
+    .hero__wrapper {
+      .hero__container__black {
+        h1 {
+          font-size: 25px;
+        }
+        p {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 320px) {
+  .hero {
+    .hero__wrapper {
+      .hero__container__black {
+        h1 {
+          font-size: 15px;
+        }
+        p {
+          font-size: 12px;
+        }
+      }
+    }
   }
 }
