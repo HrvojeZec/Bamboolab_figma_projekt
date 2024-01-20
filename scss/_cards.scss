@@ -88,15 +88,9 @@
       width: 100%;
       .card__upper--content {
         &__img {
-          width: 174px;
+          width: 210px;
           height: 117px;
           border-radius: 100%;
-        }
-        &__caption {
-        }
-      }
-      .card__lower--content {
-        p {
         }
       }
     }
@@ -111,15 +105,9 @@
     .card {
       .card__upper--content {
         &__img {
-          width: 100px;
+          width: 300px;
           height: 117px;
           border-radius: 100%;
-        }
-        &__caption {
-        }
-      }
-      .card__lower--content {
-        p {
         }
       }
     }
@@ -132,20 +120,14 @@
     width: 100%;
     padding: 0 1.5rem;
     .card {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
       .card__upper--content {
         &__img {
-          width: 500px;
-          height: 117px;
+          width: 550px;
+          height: 100px;
           border-radius: 100%;
-        }
-        &__caption {
-          h1 {
-            font-size: 20px;
-          }
-
-          h2 {
-            font-size: 20px;
-          }
         }
       }
       .card__lower--content {

@@ -181,6 +181,7 @@
     justify-content: center;
     flex-direction: column;
     .energy__content {
+      margin-top: 50px;
       &__upper {
         &__texts {
           margin: 0 auto;
@@ -209,6 +210,7 @@
 @media screen and (max-width: 320px) {
   .energy {
     .energy__content {
+      margin-top: 50px;
       &__upper {
         display: flex;
         justify-content: center;

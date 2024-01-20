@@ -264,7 +264,7 @@ header .menu--icon {
     width: 100%;
   }
   .cards .card .card__upper--content__img {
-    width: 174px;
+    width: 210px;
     height: 117px;
     border-radius: 100%;
   }
@@ -277,7 +277,7 @@ header .menu--icon {
     padding: 0 1.5rem;
   }
   .cards .card .card__upper--content__img {
-    width: 100px;
+    width: 300px;
     height: 117px;
     border-radius: 100%;
   }
@@ -289,16 +289,15 @@ header .menu--icon {
     width: 100%;
     padding: 0 1.5rem;
   }
+  .cards .card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
   .cards .card .card__upper--content__img {
-    width: 500px;
-    height: 117px;
+    width: 550px;
+    height: 100px;
     border-radius: 100%;
-  }
-  .cards .card .card__upper--content__caption h1 {
-    font-size: 20px;
-  }
-  .cards .card .card__upper--content__caption h2 {
-    font-size: 20px;
   }
   .cards .card .card__lower--content p {
     font-size: 15px;
@@ -476,6 +475,9 @@ header .menu--icon {
     justify-content: center;
     flex-direction: column;
   }
+  .energy .energy__content {
+    margin-top: 50px;
+  }
   .energy .energy__content__upper__texts {
     margin: 0 auto;
     width: 100%;
@@ -496,6 +498,9 @@ header .menu--icon {
   }
 }
 @media screen and (max-width: 320px) {
+  .energy .energy__content {
+    margin-top: 50px;
+  }
   .energy .energy__content__upper {
     display: flex;
     justify-content: center;
