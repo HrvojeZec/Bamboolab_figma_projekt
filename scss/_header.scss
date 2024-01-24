@@ -78,13 +78,14 @@ header {
         align-self: center;
         margin: 0 auto;
         width: 100%;
-        background-color: $black_color;
+
         color: $primary_text_color;
         list-style: none;
         font-family: $primary_font;
         display: none;
 
         li {
+          background-color: $black_color;
           margin: 0 auto;
           padding: 0 1.5rem;
           line-height: 65px;
