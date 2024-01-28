@@ -18,3 +18,37 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .slide__wrapper {
+    .splide {
+      .splide__arrow {
+        background: $green_color;
+        width: 4rem;
+        height: 4rem;
+        opacity: 1;
+        img {
+          width: 2rem;
+          height: 2rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .slide__wrapper {
+    .splide {
+      .splide__arrow {
+        background: $primary_text_color;
+        width: 3rem;
+        height: 3rem;
+        opacity: 1;
+        img {
+          width: 1.5rem;
+          height: 1.5rem;
+        }
+      }
+    }
+  }
+}

@@ -23,6 +23,18 @@ var splide = new Splide( '.splide', {
     padding:'6rem',
     gap: '1.5rem',
     pagination: false,
+    breakpoints: {
+        768:{
+            perPage: 2,
+            gap: '1.5rem',
+            padding:'3rem',
+        },
+        480:{
+            perPage: 1,
+            gap: '1.5rem',
+            padding:'2rem',
+        }
+    },
   } );
   
   splide.mount();
