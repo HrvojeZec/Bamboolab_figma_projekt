@@ -2,6 +2,7 @@ let getNavbar = document.querySelector(".drop-menu");
 let menuIcon = document.querySelector(".menu--icon");
 let toggleNavStatus = false;
 
+AOS.init();
 
 function toggleMenu(){
   if(toggleNavStatus === false){
@@ -16,6 +17,7 @@ function toggleMenu(){
     } 
    
 }
+
 var splide = new Splide( '.splide', {
     type   : 'loop',
     perPage: 3,

@@ -12,11 +12,16 @@
     "
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <header>
       <img src="./images/logo 1.svg" alt="PanDoo" />
-      <nav class="menu--nav--links">
+      <nav
+        class="menu--nav--links"
+        data-aos="fade-down-right"
+        data-aos-delay="300"
+      >
         <a href="#">About</a>
         <a href="#">Pricing</a>
         <a href="#">Testimonials</a>
@@ -127,7 +132,7 @@
       </div>
       <div class="energy__content">
         <div class="energy__content__upper">
-          <div class="energy__content__upper__texts">
+          <div class="energy__content__upper__texts" data-aos="fade-right">
             <h1>Subsection Title</h1>
             <p>
               You don't frighten us, English pig dogs. Go and boil your bottoms,
@@ -157,17 +162,17 @@
               not from some farcical aquatic ceremony.
             </p>
           </div>
-          <div class="energy__content__upper__images">
+          <div class="energy__content__upper__images" data-aos="fade-left">
             <img src="./images/one_wind.png" alt="wind" />
           </div>
         </div>
 
         <div class="energy__content__lower">
-          <div class="energy__content__lower__images">
+          <div class="energy__content__lower__images" data-aos="fade-right">
             <div class="colored--div"></div>
             <img src="./images/multy_solar.png" alt="solar" />
           </div>
-          <div class="energy__content__lower__texts">
+          <div class="energy__content__lower__texts" data-aos="fade-left">
             <h1>Subsection title</h1>
             <p>
               You don't frighten us, English pig dogs. Go and boil your bottoms,
@@ -320,5 +325,6 @@
     </footer>
   </body>
   <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="script.js"></script>
 </html>
