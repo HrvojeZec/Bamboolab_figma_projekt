@@ -6,6 +6,12 @@
     <title>PanDoo</title>
     <link rel="stylesheet" href="./css/main.css" />
     <link href="https://fonts.cdnfonts.com/css/raleway-5" rel="stylesheet" />
+    <link
+      href="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+    "
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -152,14 +158,14 @@
             </p>
           </div>
           <div class="energy__content__upper__images">
-            <img src="./images/Group 20.png" alt="wind" />
+            <img src="./images/one_wind.png" alt="wind" />
           </div>
         </div>
 
         <div class="energy__content__lower">
           <div class="energy__content__lower__images">
             <div class="colored--div"></div>
-            <img src="./images/Rectangle 6.png" alt="solar" />
+            <img src="./images/multy_solar.png" alt="solar" />
           </div>
           <div class="energy__content__lower__texts">
             <h1>Subsection title</h1>
@@ -196,6 +202,57 @@
       <div class="energy__button">
         <button>Learn More</button>
       </div>
+    </div>
+    <div class="slide__wrapper">
+      <section class="splide" aria-label="Splide Basic HTML Example">
+        <div class="splide__arrows">
+          <button class="splide__arrow splide__arrow--prev">
+            <img src="./images/Arrow_prev.svg" alt="prev" />
+          </button>
+          <button class="splide__arrow splide__arrow--next">
+            <img src="./images/Arrow_next.svg" alt="next" />
+          </button>
+        </div>
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <img
+                class="splide__img"
+                src="./images/multiy_wind.png"
+                alt="multiy_wind"
+              />
+            </li>
+            <li class="splide__slide">
+              <img
+                class="splide__img"
+                src="./images/multy_solar.png"
+                alt="multy_solar"
+              />
+            </li>
+            <li class="splide__slide">
+              <img
+                class="splide__img"
+                src="./images/wind_one.jpeg"
+                alt="one_wind"
+              />
+            </li>
+            <li class="splide__slide">
+              <img
+                class="splide__img"
+                src="./images/solar_panel_on_roof.jpeg"
+                alt="solar_panel_on_roof"
+              />
+            </li>
+            <li class="splide__slide">
+              <img
+                class="splide__img"
+                src="./images/wind_in_clouds.jpeg"
+                alt="wind_in_clouds"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
     </div>
     <div class="input">
       <h1>Section title</h1>
@@ -260,5 +317,6 @@
       </div>
     </footer>
   </body>
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
   <script src="script.js"></script>
 </html>

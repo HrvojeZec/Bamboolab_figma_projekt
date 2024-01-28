@@ -125,7 +125,7 @@ header .menu--icon {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-image: url("../images/Rectangle 4.png");
+  background-image: url("../images/multiy_wind.png");
 }
 .hero .hero__wrapper {
   width: 100%;
@@ -759,4 +759,24 @@ footer .black--footer .black--footer__right--links a {
     display: flex;
     flex-direction: column;
   }
+}
+.slide__wrapper {
+  margin: 0 auto;
+  max-width: 1950px;
+  width: 100%;
+}
+.slide__wrapper .splide {
+  margin-top: 16rem;
+}
+.slide__wrapper .splide .splide__img {
+  max-width: 34.5rem;
+  width: 100%;
+  max-height: 20rem;
+  height: 100%;
+}
+.slide__wrapper .splide .splide__arrow {
+  background: #87de87;
+  width: 6rem;
+  height: 6rem;
+  opacity: 1;
 }/*# sourceMappingURL=main.css.map */

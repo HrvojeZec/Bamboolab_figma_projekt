@@ -16,3 +16,13 @@ function toggleMenu(){
     } 
    
 }
+var splide = new Splide( '.splide', {
+    type   : 'loop',
+    perPage: 3,
+    rewind : true,
+    padding:'6rem',
+    gap: '1.5rem',
+    pagination: false,
+  } );
+  
+  splide.mount();
