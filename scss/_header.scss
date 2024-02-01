@@ -167,15 +167,10 @@ header {
   }
 
   body.open {
-    html,
-    body {
-      margin: 0;
-      height: 100%;
-      overflow: hidden;
-    }
-
+    overflow: hidden !important;
+    height: 100vh;
+    position: fixed;
     header {
-      position: fixed;
       img {
         display: none;
       }

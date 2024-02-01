@@ -157,13 +157,9 @@ header .menu__wrapper .menu {
     margin: 0;
     padding: 0;
   }
-  body.open html,
-  body.open body {
-    margin: 0;
-    height: 100%;
-    overflow: hidden;
-  }
-  body.open header {
+  body.open {
+    overflow: hidden !important;
+    height: 100vh;
     position: fixed;
   }
   body.open header img {
