@@ -17,29 +17,29 @@ header {
 header nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
-  margin-right: 119px;
+  gap: 1.5rem;
+  margin-right: 7.5rem;
 }
 header nav a {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
   color: #333333;
   font-family: "Raleway";
   text-decoration: none;
 }
 header nav button {
-  width: 128px;
-  height: 40px;
+  width: 8rem;
+  height: 2.5rem;
   align-self: center;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-family: "Raleway";
   font-weight: 700;
   border: none;
 }
 header img {
-  padding-left: 108px;
-  padding-top: 24px;
-  padding-bottom: 25px;
+  padding-left: 6.75rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 header .menu__wrapper {
   display: none;
@@ -80,8 +80,8 @@ header .menu__wrapper .menu {
     display: block;
     justify-content: center;
     place-items: center;
-    width: 88px;
-    height: 88px;
+    width: 5.5rem;
+    height: 5.5rem;
     align-self: flex-end;
   }
   header .menu__wrapper .menu__icon .burger {
@@ -99,9 +99,9 @@ header .menu__wrapper .menu {
 }
 @media screen and (max-width: 425px) {
   header img {
-    padding-left: 10px;
-    padding-top: 24px;
-    padding-bottom: 25px;
+    padding-left: 0.625rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
   }
 }
 @media screen and (max-width: 376px) {
@@ -121,8 +121,8 @@ header .menu__wrapper .menu {
     display: block;
     justify-content: center;
     place-items: center;
-    width: 88px;
-    height: 88px;
+    width: 5.5rem;
+    height: 5.5rem;
     align-self: flex-end;
   }
   header .menu__wrapper .menu__icon .burger {
@@ -198,10 +198,10 @@ header .menu__wrapper .menu {
     justify-content: flex-start;
   }
   body.open .menu__wrapper .menu .menu__butoon__wrapper button {
-    width: 160px;
-    height: 56px;
+    width: 10rem;
+    height: 3.5rem;
     align-self: center;
-    font-size: 18px;
+    font-size: 1.125rem;
     background: #87de87;
     font-family: "Raleway";
     font-weight: 700;
@@ -223,7 +223,7 @@ header .menu__wrapper .menu {
   margin: 0 auto;
   width: 100%;
   max-width: 1950px;
-  height: 640px;
+  height: 40rem;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -238,51 +238,51 @@ header .menu__wrapper .menu {
 }
 .hero .hero__wrapper .hero__container {
   max-width: 70vh;
-  height: 228px;
+  height: 14.25rem;
   display: flex;
   justify-content: center;
 }
 .hero .hero__wrapper .hero__container__green {
   background: #87de87;
-  width: 32px;
+  width: 2rem;
   height: 100%;
 }
 .hero .hero__wrapper .hero__container__black {
   background: #333333;
   max-width: 90%;
   display: flex;
-  gap: 24px;
+  gap: 1.5rem;
   flex-direction: column;
 }
 .hero .hero__wrapper .hero__container__black h1 {
   color: #fefefe;
-  margin-top: 32px;
-  margin-left: 24px;
-  font-size: 48px;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+  font-size: 3rem;
   font-family: "Raleway";
   font-weight: 600;
 }
 .hero .hero__wrapper .hero__container__black p {
   color: #fefefe;
-  margin-left: 24px;
-  margin-bottom: 32px;
-  margin-right: 19px;
-  font-size: 18px;
+  margin-left: 1.5rem;
+  margin-bottom: 2rem;
+  margin-right: 1.25rem;
+  font-size: 1.125rem;
   font-family: "Raleway";
   font-weight: 400;
-  line-height: 21.13px;
+  line-height: 1.25rem;
 }
 
 .title {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 120px;
-  margin-bottom: 120px;
+  margin-top: 7.5rem;
+  margin-bottom: 7.5rem;
 }
 .title h1 {
   color: #333333;
-  font-size: 48px;
+  font-size: 3rem;
   font-family: "Raleway";
   font-weight: 700;
 }
@@ -291,42 +291,42 @@ header .menu__wrapper .menu {
   .Hero--section .Hero--section__container {
     top: 15%;
     left: 5%;
-    height: 160px;
+    height: 10rem;
   }
   .Hero--section .Hero--section__container__black h1 {
-    font-size: 36px;
+    font-size: 9.25rem;
   }
   .Hero--section .Hero--section__container__black p {
-    font-size: 13px;
+    font-size: 0.875rem;
   }
 }
 @media screen and (max-width: 845px) {
   .hero .hero__wrapper .hero__container {
     top: 12%;
     left: 0%;
-    height: 205px;
+    height: 12.75rem;
   }
   .hero .hero__wrapper .hero__container__black h1 {
-    font-size: 30px;
+    font-size: 2rem;
   }
   .hero .hero__wrapper .hero__container__black p {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 }
 @media screen and (max-width: 425px) {
   .hero .hero__wrapper .hero__container__black h1 {
-    font-size: 25px;
+    font-size: 1.5rem;
   }
   .hero .hero__wrapper .hero__container__black p {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 }
 @media screen and (max-width: 320px) {
   .hero .hero__wrapper .hero__container__black h1 {
-    font-size: 15px;
+    font-size: 1rem;
   }
   .hero .hero__wrapper .hero__container__black p {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 }
 .cards {
@@ -334,7 +334,7 @@ header .menu__wrapper .menu {
   justify-content: center;
   flex-direction: row;
   align-items: center;
-  gap: 24px;
+  gap: 1.5rem;
   max-width: 1855px;
   width: 100%;
   margin: 0 auto;
@@ -347,51 +347,51 @@ header .menu__wrapper .menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 32px;
-  margin-right: 33.9px;
-  margin-left: 31.9px;
-  gap: 23.91px;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  gap: 1.5rem;
 }
 .cards .card .card__upper--content__img {
   display: flex;
   justify-content: center;
   align-items: center;
   background: #87de87;
-  width: 120px;
-  height: 120px;
+  width: 7.5rem;
+  height: 7.5rem;
   border-radius: 100%;
 }
 .cards .card .card__upper--content__caption {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  width: 342.76px;
-  height: 66px;
+  width: 21.5rem;
+  height: 4rem;
   color: #fefefe;
 }
 .cards .card .card__upper--content__caption h1 {
   color: #fefefe;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-family: "Raleway";
   font-weight: 600;
 }
 .cards .card .card__upper--content__caption h2 {
   color: #fefefe;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-family: "Raleway";
   font-style: italic;
   font-weight: 400;
 }
 .cards .card .card__lower--content {
-  margin-top: 17px;
-  margin: 31.9px;
+  margin-top: 1rem;
+  margin: 2rem;
 }
 .cards .card .card__lower--content p {
   color: #fefefe;
-  font-size: 18px;
+  font-size: 1rem;
   font-family: "Raleway";
   font-weight: 400;
-  line-height: 21.13px;
+  line-height: 1.25rem;
 }
 
 @media screen and (max-width: 1800px) {
@@ -402,7 +402,7 @@ header .menu__wrapper .menu {
 }
 @media screen and (max-width: 768px) {
   .cards {
-    max-width: 425px;
+    max-width: 26.5rem;
     width: 100%;
     margin: 0 auto;
   }
@@ -410,8 +410,8 @@ header .menu__wrapper .menu {
     width: 100%;
   }
   .cards .card .card__upper--content__img {
-    width: 210px;
-    height: 117px;
+    width: 13rem;
+    height: 7.25rem;
     border-radius: 100%;
   }
 }
@@ -420,7 +420,7 @@ header .menu__wrapper .menu {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 327px;
+    max-width: 20.375rem;
     width: 100%;
     margin: 0 auto;
     padding: 0 1.5rem;
@@ -429,8 +429,8 @@ header .menu__wrapper .menu {
     width: 100%;
   }
   .cards .card .card__upper--content__img {
-    width: 265px;
-    height: 105px;
+    width: 16.625rem;
+    height: 6.625rem;
     border-radius: 100%;
   }
 }
@@ -439,15 +439,15 @@ header .menu__wrapper .menu {
     margin: 0 auto;
   }
   .cards .card {
-    margin-bottom: 116px;
+    margin-bottom: 7.25rem;
   }
   .cards .card .card__upper--content {
     flex-direction: column;
     margin-top: -43px;
   }
   .cards .card .card__upper--content__img {
-    width: 115px;
-    height: 105px;
+    width: 7.25rem;
+    height: 6.5rem;
     border-radius: 100%;
     margin: 0 auto;
   }
@@ -460,19 +460,19 @@ header .menu__wrapper .menu {
 @media screen and (max-width: 320px) {
   .cards {
     margin: 0 auto;
-    max-width: 300px;
+    max-width: 18.75rem;
     width: 100%;
   }
   .cards .card {
-    margin-bottom: 116px;
+    margin-bottom: 7.25rem;
   }
   .cards .card .card__upper--content {
     flex-direction: column;
     margin-top: -43px;
   }
   .cards .card .card__upper--content__img {
-    width: 115px;
-    height: 105px;
+    width: 7.25rem;
+    height: 6.625rem;
     border-radius: 100%;
     margin: 0 auto;
   }
@@ -488,7 +488,7 @@ header .menu__wrapper .menu {
   max-width: 1950px;
   min-height: 1800px;
   background: #333333;
-  margin-top: 120px;
+  margin-top: 7.5rem;
 }
 .energy .energy__title {
   display: flex;
@@ -496,8 +496,8 @@ header .menu__wrapper .menu {
   align-items: center;
 }
 .energy .energy__title h1 {
-  margin-top: 64px;
-  font-size: 48px;
+  margin-top: 4rem;
+  font-size: 3rem;
   font-family: "Raleway";
   color: #fefefe;
   font-weight: 700;
@@ -505,7 +505,7 @@ header .menu__wrapper .menu {
 .energy .energy__content {
   display: flex;
   flex-direction: column;
-  margin-top: 237px;
+  margin-top: 14.75rem;
 }
 .energy .energy__content__upper {
   display: flex;
@@ -517,12 +517,12 @@ header .menu__wrapper .menu {
 .energy .energy__content__upper__texts {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 0.75rem;
   color: #fefefe;
   font-family: "Raleway";
-  margin-right: 168px;
-  min-width: 300px;
-  line-height: 21.13px;
+  margin-right: 10.5rem;
+  min-width: 18.75rem;
+  line-height: 1.25rem;
 }
 .energy .energy__content__upper__images img {
   max-width: auto;
@@ -537,21 +537,21 @@ header .menu__wrapper .menu {
 .energy .energy__content__lower__texts {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 0.75rem;
   color: #fefefe;
   font-family: "Raleway";
-  margin-left: 168px;
-  margin-top: 150px;
-  min-width: 300px;
-  line-height: 21.13px;
+  margin-left: 10.5rem;
+  margin-top: 9.375rem;
+  min-width: 18.75rem;
+  line-height: 1.25rem;
 }
 .energy .energy__content__lower__images {
   display: flex;
-  margin-top: 173px;
+  margin-top: 10.875rem;
 }
 .energy .energy__content__lower__images .colored--div {
   height: 100%;
-  width: 32px;
+  width: 2rem;
   background-color: #87de87;
 }
 .energy .energy__content__lower__images img {
@@ -565,11 +565,11 @@ header .menu__wrapper .menu {
 }
 .energy__button button {
   background-color: #87de87;
-  width: 264px;
-  height: 72px;
-  border-radius: 12px;
+  width: 16.5rem;
+  height: 4.5rem;
+  border-radius: 0.75rem;
   font-family: "Raleway";
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
   border: none;
 }
@@ -585,7 +585,7 @@ header .menu__wrapper .menu {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 3.125rem;
   }
   .energy__content__upper__texts {
     margin: 0 auto;
@@ -597,7 +597,7 @@ header .menu__wrapper .menu {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 3.125rem;
   }
   .energy__content__lower__texts {
     margin: 0 auto;
@@ -615,7 +615,7 @@ header .menu__wrapper .menu {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 3.125rem;
   }
   .energy__content__upper__texts {
     margin: 0 auto;
@@ -632,7 +632,7 @@ header .menu__wrapper .menu {
   }
   .energy__content__lower {
     display: flex;
-    gap: 50px;
+    gap: 3.125rem;
   }
   .energy__content__lower__texts {
     margin: 0 auto;
@@ -640,7 +640,7 @@ header .menu__wrapper .menu {
     max-width: 500px;
   }
   .energy__content__lower__images {
-    margin-left: 110px;
+    margin-left: 6.874rem;
   }
   .energy__content__lower__images img {
     width: 65%;
@@ -654,7 +654,7 @@ header .menu__wrapper .menu {
     flex-direction: column;
   }
   .energy .energy__content {
-    margin-top: 50px;
+    margin-top: 3.125rem;
   }
   .energy .energy__content__upper__texts {
     margin: 0 auto;
@@ -679,7 +679,7 @@ header .menu__wrapper .menu {
   .energy .energy__content {
     display: flex;
     gap: 1.5rem;
-    margin-top: 50px;
+    margin-top: 3.125;
   }
   .energy .energy__content__upper {
     display: flex;
@@ -694,11 +694,11 @@ header .menu__wrapper .menu {
     padding-bottom: 1.5rem;
   }
   .energy .energy__content__upper .energy__content__upper__texts h1 {
-    font-size: 24px;
+    font-size: 1.5rem;
     padding-bottom: 1.6rem;
   }
   .energy .energy__content__upper .energy__content__upper__texts p {
-    font-size: 18px;
+    font-size: 1.125;
   }
   .energy .energy__content__upper__images {
     margin: 0 auto;
@@ -718,11 +718,11 @@ header .menu__wrapper .menu {
     align-items: center;
   }
   .energy .energy__content__lower .energy__content__lower__texts h1 {
-    font-size: 24px;
+    font-size: 1.5rem;
     padding-bottom: 1.6rem;
   }
   .energy .energy__content__lower .energy__content__lower__texts p {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   .energy .energy__content__lower__images {
     flex-direction: column-reverse;
@@ -731,18 +731,18 @@ header .menu__wrapper .menu {
     max-height: 360px;
   }
   .energy .energy__content__lower__images .colored--div {
-    width: 365px;
-    height: 32px;
+    width: 22.875rem;
+    height: 2rem;
     background-color: #87de87;
   }
   .energy .energy__content__lower__images img {
     width: 100%;
-    height: 328px;
+    height: 20.5rem;
   }
 }
 @media screen and (max-width: 320px) {
   .energy .energy__content {
-    margin-top: 50px;
+    margin-top: 3.125rem;
   }
   .energy .energy__content__upper {
     display: flex;
@@ -765,37 +765,37 @@ header .menu__wrapper .menu {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 120px;
-  gap: 15px;
+  margin-top: 7.5rem;
+  gap: 1rem;
   max-width: 100%;
-  margin-bottom: 120px;
+  margin-bottom: 7.5rem;
 }
 .input h1 {
   font-family: "Raleway";
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 700;
-  line-height: 56px;
+  line-height: 3.5rem;
   letter-spacing: 0em;
   text-align: center;
 }
 .input p {
   font-family: "Raleway";
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 500;
-  line-height: 28px;
+  line-height: 1.75ren;
   letter-spacing: 0em;
-  margin-left: 530px;
-  margin-right: 530px;
+  margin-left: 33.125rem;
+  margin-right: 33.125rem;
   text-align: center;
 }
 .input .input--with--button {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  width: 696px;
-  height: 64px;
-  margin-top: 55px;
-  border-radius: 12px;
+  width: 43.5rem;
+  height: 4rem;
+  margin-top: 3.5rem;
+  border-radius: 0.75rem;
   border: 1px solid #fefefe;
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2509803922);
 }
@@ -804,22 +804,22 @@ header .menu__wrapper .menu {
   height: 100%;
   border: none;
   font-family: "Raleway";
-  font-size: 18px;
+  font-size: 1rem;
   font-style: italic;
-  padding-left: 10px;
+  padding-left: 0.625rem;
 }
 .input .input--with--button button {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #87de87;
-  width: 120px;
-  height: 48px;
-  border-radius: 12px;
+  width: 7.5rem;
+  height: 3rem;
+  border-radius: 0.75rem;
   font-family: "Raleway";
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
-  margin-right: 10px;
+  margin-right: 0.625rem;
   border: none;
 }
 
@@ -834,7 +834,7 @@ header .menu__wrapper .menu {
   }
   .input .input--with--button button {
     width: 20%;
-    font-size: 14px;
+    font-size: 1rem;
   }
 }
 @media screen and (max-width: 376px) {
@@ -850,7 +850,7 @@ header .menu__wrapper .menu {
     margin: 0 auto;
     width: 100%;
     height: 100%;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1rem;
   }
   .input .input--with--button {
@@ -860,11 +860,11 @@ header .menu__wrapper .menu {
   .input .input--with--button input {
     width: 100%;
     height: 100%;
-    font-size: 16px;
+    font-size: 1rem;
   }
   .input .input--with--button .button__wrapper {
     max-width: 32%;
-    max-height: 65px;
+    max-height: 4rem;
     width: 100%;
     height: 100%;
   }
@@ -872,10 +872,10 @@ header .menu__wrapper .menu {
     width: 100%;
     height: 100%;
     border-top-left-radius: 0px;
-    border-top-right-radius: 12px;
-    border-bottom-right-radius: 12px;
+    border-top-right-radius: 0.75rem;
+    border-bottom-right-radius: 0.75rem;
     border-bottom-left-radius: 0px;
-    font-size: 18px;
+    font-size: 1rem;
   }
 }
 footer {
@@ -883,53 +883,53 @@ footer {
   width: 100%;
   max-width: 1950px;
   height: 100%;
-  margin-top: 120px;
+  margin-top: 7.5rem;
   margin: 0 auto;
 }
 footer .hyperlinks--wrapper {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-bottom: 96px;
-  padding-top: 48px;
+  margin-bottom: 6rem;
+  padding-top: 3rem;
 }
 footer .hyperlinks--wrapper a:first-of-type {
   color: #333333;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-family: "Raleway";
   font-weight: 600;
 }
 footer .hyperlinks--wrapper a {
   text-decoration: none;
   color: #333333;
-  font-size: 18px;
+  font-size: 1.125;
   font-family: "Raleway";
   font-weight: 400;
 }
 footer .hyperlinks--wrapper .contact--info {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0.625rem;
 }
 footer .hyperlinks--wrapper .navigation--links {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0.625;
 }
 footer .hyperlinks--wrapper .company--links {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0.625rem;
 }
 footer .hyperlinks--wrapper .social--media {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0.625rem;
 }
 footer .hyperlinks--wrapper .social--media .social--icon {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 0.625rem;
 }
 footer .hyperlinks--wrapper .social--media .social--icon .icon {
   background: #333333;
@@ -940,7 +940,7 @@ footer .hyperlinks--wrapper .social--media .social--icon .icon {
 }
 footer .black--footer {
   max-width: 100%;
-  height: 48px;
+  height: 3rem;
   background: #333333;
   display: flex;
   justify-content: space-between;
@@ -949,12 +949,12 @@ footer .black--footer {
 footer .black--footer a:first-child {
   color: #fefefe;
   text-decoration: none;
-  margin-left: 108px;
+  margin-left: 6.75rem;
 }
 footer .black--footer .black--footer__right--links {
   display: flex;
-  gap: 30px;
-  margin-right: 108px;
+  gap: 1.75rem;
+  margin-right: 6.75rem;
 }
 footer .black--footer .black--footer__right--links a {
   color: #fefefe;
