@@ -29,16 +29,22 @@
         <a href="#">Contact</a>
         <button>GET IT NOW</button>
       </nav>
-      <div class="menu--icon">
-        <img src="./images/menu.svg" onclick="toggleMenu()" alt="menu icon" />
-        <ul class="drop-menu menu-1">
-          <li>About</li>
-          <li>Pricing</li>
-          <li>Testimonials</li>
-          <li>Blog</li>
-          <li>Contact</li>
-          <button>GET IT NOW</button>
-        </ul>
+      <div class="menu__wrapper">
+        <div class="menu__icon">
+          <button class="burger" onclick="toggleMenu()"></button>
+        </div>
+        <div class="menu">
+          <nav class="menu__elements">
+            <a style="animation-delay: 0.2s">About</a>
+            <a style="animation-delay: 0.3s">Pricing</a>
+            <a style="animation-delay: 0.4s">Testimonials</a>
+            <a style="animation-delay: 0.5s">Blog</a>
+            <a style="animation-delay: 0.6s">Contact</a>
+          </nav>
+          <div class="menu__butoon__wrapper">
+            <button style="animation-delay: 0.7s">GET IT NOW</button>
+          </div>
+        </div>
       </div>
     </header>
     <div class="hero">

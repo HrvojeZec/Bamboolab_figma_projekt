@@ -4,19 +4,7 @@ let toggleNavStatus = false;
 
 AOS.init();
 
-function toggleMenu(){
-  if(toggleNavStatus === false){
-        var displayStatus = getNavbar.style.display = "block";
-
-        toggleNavStatus = true;
-  
-    }
-    else if(toggleNavStatus === true){
-        var displayStatus = getNavbar.style.display = "none";
-        toggleNavStatus = false
-    } 
-   
-}
+const toggleMenu = () => document.body.classList.toggle("open");
 
 var splide = new Splide( '.splide', {
     type   : 'loop',
