@@ -139,8 +139,9 @@ header .menu__wrapper .menu {
   }
   header .menu__wrapper .menu {
     width: 375px;
-    height: 812px;
+    height: calc(100vh - 88px);
     padding: 0 1.5rem;
+    box-sizing: border-box;
   }
   header .menu__wrapper .menu .menu__elements {
     display: flex;
@@ -187,7 +188,7 @@ header .menu__wrapper .menu {
     display: block;
     display: flex;
     flex-direction: column;
-    gap: 22rem;
+    justify-content: space-between;
   }
   body.open .menu__wrapper .menu .menu__elements a {
     opacity: 1;
@@ -196,6 +197,7 @@ header .menu__wrapper .menu {
   body.open .menu__wrapper .menu .menu__butoon__wrapper {
     display: flex;
     justify-content: flex-start;
+    padding: 2.5rem 0;
   }
   body.open .menu__wrapper .menu .menu__butoon__wrapper button {
     width: 10rem;
@@ -483,6 +485,7 @@ header .menu__wrapper .menu {
   }
 }
 .energy {
+  overflow: hidden;
   margin: 0 auto;
   width: 100%;
   max-width: 1950px;
@@ -982,6 +985,7 @@ footer .black--footer .black--footer__right--links a {
   }
 }
 .slide__wrapper {
+  overflow: hidden;
   margin: 0 auto;
   max-width: 1950px;
   width: 100%;

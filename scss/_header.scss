@@ -144,8 +144,9 @@ header {
       }
       .menu {
         width: 375px;
-        height: 812px;
+        height: calc(100vh - 88px);
         padding: 0 1.5rem;
+        box-sizing: border-box;
         .menu__elements {
           display: flex;
           flex-direction: column;
@@ -196,7 +197,7 @@ header {
         display: block;
         display: flex;
         flex-direction: column;
-        gap: 22rem;
+        justify-content: space-between;
         .menu__elements {
           a {
             opacity: 1;
@@ -206,6 +207,7 @@ header {
         .menu__butoon__wrapper {
           display: flex;
           justify-content: flex-start;
+          padding: 2.5rem 0;
           button {
             width: 10rem;
             height: 3.5rem;
